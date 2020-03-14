@@ -1,0 +1,26 @@
+
+class CalculoArea {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		TrianguloeRetangulo Triangulo = new TrianguloeRetangulo();
+		Triangulo.base = 20;
+		Triangulo.altura = 30;
+		System.out.println("A area do triangulo é:" +Triangulo.areaTriangulo());
+		
+		TrianguloeRetangulo Retangulo = new TrianguloeRetangulo();
+		Retangulo.base = 63;
+		Retangulo.altura = 10;
+		System.out.println("A area do retangulo é:"+ Retangulo.areaRetangulo());
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
