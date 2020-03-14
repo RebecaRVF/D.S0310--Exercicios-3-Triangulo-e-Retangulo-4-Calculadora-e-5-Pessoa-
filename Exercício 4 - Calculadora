@@ -1,0 +1,30 @@
+
+public class Calculadora {
+	
+	double numero1;
+	double numero2;
+	double resultadosoma;
+	double resultadodivisão;
+	double resultadosubtração;
+	double resultadomultiplicação;
+	
+	double resultadosoma () {
+		return	resultadosoma = numero1 + numero2;
+		
+	}
+	
+	double resultadodivisão () {
+		return	resultadodivisão = numero1 / numero2;
+		
+	}
+	
+	double resultadosubtração () {
+		return	resultadosubtração = numero1 - numero2;
+	
+	}
+	
+	double resultadomultiplicação () {
+		return	resultadomultiplicação = numero1 * numero2;
+
+	}	
+	}
