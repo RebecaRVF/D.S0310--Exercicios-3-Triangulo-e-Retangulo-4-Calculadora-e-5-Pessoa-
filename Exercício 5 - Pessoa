@@ -1,0 +1,23 @@
+public class Pessoa {
+	
+	Calendar hoje = Calendar.getInstance();
+	
+	String nome;
+	String sobrenome;
+	int anodeNascimento;
+	
+	int calcularIdade(){
+		
+		int idade = hoje.get(Calendar.YEAR) - anodeNascimento;
+		
+		return idade;
+		
+	}
+	
+	String nomeCompleto(){
+		
+		return nome+" "+sobrenome;
+		
+	}
+
+}
