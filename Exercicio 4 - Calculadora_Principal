@@ -1,0 +1,20 @@
+
+public class CalculadoraPrincipal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Calculadora valor1 = new Calculadora ();
+		valor1.numero1 = 10;
+		System.out.println("O resultado da soma é:"+valor1.resultadosoma());
+		System.out.println("O resultado da divisão é:"+valor1.resultadodivisão());
+		System.out.println("O resultado da subtração é:"+valor1.resultadosubtração());
+		System.out.println("O resultado da multiplicação é:"+valor1.resultadomultiplicação());
+		
+		Calculadora valor2 = new Calculadora ();
+		valor2.numero2 = 5;
+		
+
+	}
+
+}
