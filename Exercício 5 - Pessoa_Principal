@@ -1,0 +1,28 @@
+package exercise3;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub	
+
+		Pessoa p1 = new Pessoa();
+		
+		p1.nome = "Kecia";
+		p1.sobrenome = "gomes";
+		p1.anodeNascimento = 2004;
+
+    pessoa p2 = new pessoa();                                                                                                                        
+                 
+		p2.nome = "Rebeca";
+		p2.sobrenome = "feitosa";
+		p2.anodeNascimento = 2003;
+
+		System.out.println(p1.nomeCompleto());
+		System.out.println(p1.calcularIdade());
+
+                System.out.println(p2.nomeCompleto());
+		System.out.println(p2.calcularIdade());
+		
+	}
+
+}
