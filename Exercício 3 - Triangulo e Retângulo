@@ -1,0 +1,19 @@
+
+public class TrianguloeRetangulo {
+	
+	double base;
+	double altura;
+	double areaTriangulo;
+	double areaRetangulo;
+	
+	double areaTriangulo (){
+		return areaTriangulo = (base * altura)/2;
+		
+	}
+	double areaRetangulo (){
+		
+		return areaRetangulo = base * altura;
+	}
+   
+	
+}
